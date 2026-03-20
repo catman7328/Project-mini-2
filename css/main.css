@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --color-text-1: #6f6f6fb9;
+  --color-text-2: rgb(255, 255, 255);
+}
+::selection {
+  background: #ff589e; /* màu nền highlight (đỏ hồng ví dụ) */
+  color: #ffffff; /* màu chữ khi bôi đen */
+}
+/* button 1 */
+.button {
+  font-size: 13px;
+  border-radius: 20px;
+  padding: 12px 20px;
+  background-color: #ff589e;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.25px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  color: #fff;
+}
+.button:hover {
+  background-color: #8261ee;
+  color: #fff;
+  text-decoration: none;
+}
+/* end button 1 */
+.header-col {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+.header-col p:first-of-type {
+  color: #fff;
+  font-weight: 500;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+.header-col p:last-of-type {
+  margin-bottom: 40px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 15px;
+}
